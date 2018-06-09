@@ -112,7 +112,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     libbson \
-    GoogleCameraMod \
+    GCamMod \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
     android.hardware.camera.provider@2.4-impl \
@@ -247,6 +247,9 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service.widevine
+# Doze mode
+PRODUCT_PACKAGES += \
+    OneplusThreeDoze
 
 #PRODUCT_COPY_FILES += \
 #    $(LOCAL_PATH)/configs/qdcm_calib_data_mipi_mot_vid_boe_1080p_520.xml:system/vendor/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_520.xml \
